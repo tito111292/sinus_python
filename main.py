@@ -77,5 +77,5 @@ btn_clean = Button(root, text='Очистить')
 btn_clean.bind('<Button-1>',lambda event: clean())
 btn_clean.place(x=100,y=100)
 
-
+# Это главное окно
 root.mainloop()
